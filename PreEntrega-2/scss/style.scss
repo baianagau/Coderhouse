@@ -1,6 +1,8 @@
 @import "variables";
 @import "footer";
 
+$ancho-1200:1200px;
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
@@ -49,7 +51,7 @@ li a {
 
 .div-p {
     margin: 0 auto;
-    width: 600px;
+    width: $ancho-1200/2;
     margin-top: 20px;
     /* sombra de caja conenedora de texto */
     box-shadow: 0 10px 20px rgb(0 0 0 / 5%),
@@ -94,7 +96,7 @@ li a {
 }
 
 .img-2 {
-    width: 601px;
+    width: ($ancho-1200/2)+1;
     display: block;
     margin: auto;
     margin-top: 20px;
