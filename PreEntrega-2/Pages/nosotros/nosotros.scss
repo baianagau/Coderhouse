@@ -1,0 +1,59 @@
+@import "../../scss/variables";
+@import "../../scss/footer";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: block;
+    background-color: $color-primario;
+  
+}
+h1 {
+    font-size: 0%;
+}
+.div-p {
+    margin: 0 auto;
+  width: 740px;
+  margin-top: 20px;
+  /* sombra de caja conenedora de texto */
+  box-shadow: 0 10px 20px rgb(0 0 0 / 5%),
+      0 6px 6px rgb(0 0 0 / 7%);
+}
+
+.div-img {
+    margin-top: 30px;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 740px 
+}
+.div-b {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.button {
+    background-color:  $color-secundario ;
+    border: none;
+    color: $color-primario;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 8px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    position: relative;
+    right: 10px;
+    
+}
+.button:hover {
+    background-color: $color-activo
+  }
+  
