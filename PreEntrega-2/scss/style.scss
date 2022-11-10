@@ -3,6 +3,7 @@
 
 $ancho-1200:1200px;
 
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
@@ -29,18 +30,18 @@ ul {
     justify-content: center;
     background-color: $color-secundario;
     opacity: 0.9;
-}
 
-ul li {
-    padding: 1em;
-}
-
-li a {
-    color: $color-primario;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    cursor: pointer;
+    li {
+        padding: 1em;
+    }
+        
+         a {
+             color: $color-primario;
+             text-align: center;
+             padding: 14px 30px;
+             text-decoration: none;
+             cursor: pointer;
+        }
 }
 
 .img {

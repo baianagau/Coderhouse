@@ -28,20 +28,20 @@ ul {
     justify-content: center;
     background-color: $color-secundario ;
     opacity: 0.9;
-}
 
-ul li {
-    padding: 1em;
-}
 
-li a {
-    color: $color-primario;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    cursor: pointer;
-}
+   li {
+       padding: 1em;
+   }
 
+        a {
+           color: $color-primario;
+           text-align: center;
+           padding: 14px 30px;
+           text-decoration: none;
+           cursor: pointer;
+        }
+}
 
 
 @media (max-width: 900px) {
