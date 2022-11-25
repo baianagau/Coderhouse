@@ -124,11 +124,6 @@ ul {
         text-align: justify;
     }
 
-    .bronx {
-        bottom: 0;
-        width: 100%;
-        margin-top: auto;
-    }
 
 }
 
@@ -256,30 +251,34 @@ ul {
 
 /* contacto */
 
-.body {
-    @extend body;
-    margin-top: 170px;
-    background-image: url(../assets/img.jpg);
+.body-contacto {
+    margin: 0 !important;
+    background-color: $color-active-link;
+    color: $color-secundario;
+    font-family: sans-serif;
+
 }
 
-h1 {
-    font-size: 0%;
+.div-cont {
+    position: fixed;
+    right: 25%;
 }
 
-.div {
-    text-align: center;
-    color: $color-active-link;
+
+@media screen and (max-width: 800px) {
+    .div-cont {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .footer-contacto {
+        width: 100vh;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
 }
 
-.form {
-    margin: 0 auto;
-    width: 800px;
-    margin-top: 20px;
-}
-.footer-contacto {
-    position:absolute;
-    bottom:0
-}
 /* fin contacto */
 
 /* mayoristas */

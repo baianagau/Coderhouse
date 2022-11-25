@@ -82,7 +82,7 @@ footer {
   padding: 0px;
 }
 
-body, .body {
+body {
   background-color: white;
 }
 
@@ -190,11 +190,6 @@ ul li a {
   h2 {
     text-align: justify;
   }
-  .bronx {
-    bottom: 0;
-    width: 100%;
-    margin-top: auto;
-  }
 }
 /* catalogo */
 h1 {
@@ -297,34 +292,41 @@ ul li a {
 
 /* fin catalogo */
 /* contacto */
-.body {
-  margin-top: 170px;
-  background-image: url(../assets/img.jpg);
+.body-contacto {
+  margin: 0 !important;
+  background-color: #C9D6DF;
+  color: black;
+  font-family: sans-serif;
 }
 
-h1 {
-  font-size: 0%;
-}
-
-.div {
-  text-align: center;
-  color: #C9D6DF;
-}
-
-.form {
-  margin: 0 auto;
-  width: 800px;
-  margin-top: 20px;
+.div-cont {
+  position: fixed;
+  right: 25%;
 }
 
 .footer-contacto {
-  position: absolute;
-  bottom: 0;
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100%;
+  color: white;
+  background-color: black;
 }
 
+@media screen and (max-width: 800px) {
+  .div-cont {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .footer-contacto {
+    width: 100vh;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+}
 /* fin contacto */
 /* mayoristas */
-body, .body {
+body {
   display: block;
   background-color: white;
   background-repeat: no-repeat;
